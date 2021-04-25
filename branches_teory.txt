@@ -1,0 +1,10 @@
+To see branches
+	~ git branch
+	~ git show-branch
+	~ git show-branch --all
+
+Create a new branch and checkout to it in one line
+	~ git checkout -b <bran name>
+
+To push branch into remote repository
+	~git push origin <branch name>
