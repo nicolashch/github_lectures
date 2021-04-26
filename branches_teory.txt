@@ -1,3 +1,6 @@
+BRANCHES (RAMAS)
+_________
+
 Create new branch
 	~ git branch <branch-name>
 
