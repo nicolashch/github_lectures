@@ -1,0 +1,7 @@
+Grep: search for specific words all arround our repository.
+	~ git grep color # search uses of Color word
+	~ git grep -n color # Lines where color word was used
+	~ git grep -c color # How many times was used
+	
+Log -S: look for words into the commits we have made
+	~ git log -S "word-to-search"
