@@ -19,3 +19,7 @@ GIT CHERRY-PICK
 Allows to bring old commit from another branch to master
 
 	~ git cherry-pick <commit-hash>
+	when merging, conflicts may appear
+	It's not a good practice because it delets history
+
+	~ git cherry-pick <commit-hash>
