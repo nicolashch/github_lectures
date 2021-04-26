@@ -1,5 +1,19 @@
 GIT STASH
-_________
 
+Stash command allows to save changes without saving them to staging
+	~ git stash # Saves changes momentarly
+	~ git stash list # Shows changes saved at stash
+	~ git chechkout stash <branch-name> # Send changes to a new branch
+	~ git stash drop # delets stash 
+_________________________________________________________________________
 GIT CLEAN
+
+Clean command allows to delet unwanted files from repository
+	~ git clean -f # Delets not tracked files
+	~ git clean --dry-run # Shows what is it going to delet
+	
+	Note that files added in .gitignore will not be deleted
+
+GIT CHERRY-PICK
+
 
