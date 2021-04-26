@@ -8,3 +8,9 @@ Create a new branch and checkout to it in one line
 
 To push branch into remote repository
 	~git push origin <branch name>
+
+Stash command allows to save changes without saving them to staging
+	~ git stash # Saves changes momentarly
+	~ git stash list # Shows changes saved at stash
+	~ git chechkout stash <branch-name> # Send changes to a new branch
+	~ git stash drop # delets stash created
