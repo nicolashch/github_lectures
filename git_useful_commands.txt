@@ -3,7 +3,7 @@ GIT STASH
 Stash command allows to save changes without saving them to staging
 	~ git stash # Saves changes momentarly
 	~ git stash list # Shows changes saved at stash
-	~ git chechkout stash <branch-name> # Send changes to a new branch
+	~ git stash branch  <branch-name> # Send changes to a new branch
 	~ git stash drop # delets stash 
 _________________________________________________________________________
 GIT CLEAN
@@ -13,7 +13,9 @@ Clean command allows to delet unwanted files from repository
 	~ git clean --dry-run # Shows what is it going to delet
 	
 	Note that files added in .gitignore will not be deleted
-
+________________________________________________________________________
 GIT CHERRY-PICK
 
+Allows to bring old commit from another branch to master
 
+	~ git cherry-pick <commit-hash>
