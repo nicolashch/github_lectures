@@ -11,7 +11,9 @@ To see branches
 	~ git branch
 	~ git show-branch
 	~ git show-branch --all
-
+To see local and remote branches
+	~ git branch -r #shows remote branches
+	~ git branch -s # Shows local and remote branches
 To push branch into remote repository
 	~git push origin <branch name>
 
